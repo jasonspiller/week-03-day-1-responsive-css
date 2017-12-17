@@ -1,3 +1,18 @@
+<!--
+1.The "what is responsive design" and "how to do responsive design wrong" could come out.
+2.Brad Frost should come out. 
+3.Reference to X-Code should come out. 
+4.All of the codealongs would become the actual excercises. 
+5.(Take out the minutes).
+6.Take out the Ghost Lab part too (in Demo)
+-->
+
+
+
+
+
+
+
 <!-- 
 creator: Tony Guererro
  -->
@@ -15,13 +30,7 @@ creator: Tony Guererro
 
 - Write basic HTML/CSS
 
-## What is responsive design? Intro (10 mins)
 
-"Responsive Design" is the strategy of making a site that "responds" to the browser and device that it is being shown on... by looking awesome no matter what.
-
-Or, the dryer Wikipedia definition:
-
-"Responsive web design (RWD) is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors)."
 
 #### More devices
 
@@ -36,63 +45,7 @@ Fast forward to today and the desktop computer seems to be dying. More than 71% 
 
 
 
-## How to do Responsive Design wrong - Demo (10 mins)
 
-If you're not planning before you begin to create a responsive design, you're doing it wrong. Changing a web platform to a mobile platform is much more difficult than going from mobile to web.
-
-#### Examples of non-responsive sites:
-
-It is becoming harder and harder to find non-responsive websites.
-
-> Note: Find examples of non-responsive sites to show to students.
-
-#### Examples of responsive sites:
-
-- [Boston Globe](http://www.bostonglobe.com/)  
-- [GA](https://generalassemb.ly/)
-
-
-What's the difference between these? Let's resize again.
-Interestingly, **Boston Globe was the first example of a responsive website.**
-
-Instead of manually resizing the page, which can be a pain, we can use tools like this:
-
-- [Brad Frost](http://bradfrostweb.com/demo/ish/)
-
-Add a url into the input box (top left).
-
-You can easily resize the screen and see how the differnt sites look using the buttons on the top right.
-
-If you are really bold, choose disco!
-
-
-## Demo - Responsive Design tools (10 mins)
-
-There are a number of other stand alone tools that you can use.
-
-[Ghostlab](http://vanamco.com/ghostlab/), for example is a service that will test how your site runs on many different browsers, inspects and points out CSS problems, and also provides compilation services for preprocessors like Sass.
-
-#### Chrome's new developer tools
-
-Also, there is a really awesome tool in Chrome:
-
-- Let's visit GA's homepage
-- Click on the device icon next to the magnifying glass
-- You can change the pixel width (displayed at the top) using the drag tool
-- You can select any device using the dropdown menu at the top
-
-#### Xcode
-
-Another great tool is the Xcode simulator.
-
-
-## Make a responsive website - Codealong (15 mins)
-
-Download the [starter-code](starter-code)
-
-Now open everything in Atom or Sublime and add the contents of a [reset.css](http://cssreset.com/) to the reset stylesheet.
-
-There are two general approaches to responsive design:  *progressive enhancement* and *graceful degredation*. Nobody really talks about this anymore, but it used to be important and it may be useful vocabulary for future interviews. So progressive enhancement is more commonly called mobile-first design and is more common when starting from scratch. In this case, we have a desktop design and we want to reorganize and remove design elements so that it looks better on smaller screens. When done well, this is known as graceful degredation.
 
 #### Starter Code
 
@@ -531,7 +484,7 @@ As you can see, DOM manipulation with vanilla javascript is a little tedious. Bu
 If you get some issues with when the browser window changes size, you might need to add some `!important` tags to make sure that the browser uses the right selector.
 
 
-## On your phone - Codealong (10 mins)
+## Exercise
 
 A few years ago, when we wanted to test our site on multiple operating systems, we'd have to upload the file to a webserver; but it has become very easy to run a little server from our computers and check out our site on our phones.
 
@@ -601,3 +554,80 @@ Though we won't cover this explicitly in this lesson, consider this while your b
 - Describe media queries.
 - Identify the different tools you can use to practice responsive design.
 - What are the steps to ensure mobile devises are using media queries when loading your web app?
+
+
+
+<!--
+## Cutout Section - These are some bits of the original material that were removed - Perhaps we may need them for a future lesson.
+
+## What is responsive design? Intro (10 mins)
+
+"Responsive Design" is the strategy of making a site that "responds" to the browser and device that it is being shown on... by looking awesome no matter what.
+
+Or, the dryer Wikipedia definition:
+
+"Responsive web design (RWD) is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors)."
+
+
+
+
+
+## How to do Responsive Design wrong - Demo (10 mins)
+
+If you're not planning before you begin to create a responsive design, you're doing it wrong. Changing a web platform to a mobile platform is much more difficult than going from mobile to web.
+
+#### Examples of non-responsive sites:
+
+It is becoming harder and harder to find non-responsive websites.
+
+> Note: Find examples of non-responsive sites to show to students.
+
+#### Examples of responsive sites:
+
+- [Boston Globe](http://www.bostonglobe.com/)  
+- [GA](https://generalassemb.ly/)
+
+
+What's the difference between these? Let's resize again.
+Interestingly, **Boston Globe was the first example of a responsive website.**
+
+Add a url into the input box (top left).
+
+You can easily resize the screen and see how the differnt sites look using the buttons on the top right.
+
+If you are really bold, choose disco!
+
+
+## Demo - Responsive Design tools (10 mins)
+
+There are a number of other stand alone tools that you can use.
+
+[Ghostlab](http://vanamco.com/ghostlab/), for example is a service that will test how your site runs on many different browsers, inspects and points out CSS problems, and also provides compilation services for preprocessors like Sass.
+
+#### Chrome's new developer tools
+
+Also, there is a really awesome tool in Chrome:
+
+- Let's visit GA's homepage
+- Click on the device icon next to the magnifying glass
+- You can change the pixel width (displayed at the top) using the drag tool
+- You can select any device using the dropdown menu at the top
+
+#### Xcode
+
+Another great tool is the Xcode simulator.
+
+
+## Make a responsive website - Codealong (15 mins)
+
+Download the [starter-code](starter-code)
+
+Now open everything in Atom or Sublime and add the contents of a [reset.css](http://cssreset.com/) to the reset stylesheet.
+
+There are two general approaches to responsive design:  *progressive enhancement* and *graceful degredation*. Nobody really talks about this anymore, but it used to be important and it may be useful vocabulary for future interviews. So progressive enhancement is more commonly called mobile-first design and is more common when starting from scratch. In this case, we have a desktop design and we want to reorganize and remove design elements so that it looks better on smaller screens. When done well, this is known as graceful degredation.
+
+Instead of manually resizing the page, which can be a pain, we can use tools like this:
+
+- [Brad Frost](http://bradfrostweb.com/demo/ish/)
+
+-->
