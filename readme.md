@@ -210,7 +210,7 @@ One way of doing this is by including `media` in your stylesheet link.
 ```html
 <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/medium.css' />
 ```
-But this is not very cool. (I don't even know why we just showed you that!) A much better way is to include in your CSS. This is the syntax:
+...But this is not very cool, so here's a much better way, include this syntax in your CSS.
 
 #### Max-width 960px
 
