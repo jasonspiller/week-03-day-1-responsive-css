@@ -214,18 +214,6 @@ That's the width of an iphone 3G.
 Okay, so that looks good when the screen is small and large but what about in the middle?
 
 
-## Media queries - Intro (5 mins)
-
-In order to target specific device/screen sizes, we need to use media-queries.
-
-What the heck is a media query? From W3Schools:
-
-"Media Queries is a CSS3 module allowing content rendering to adapt to conditions such as screen resolution (e.g. smartphone screen vs. computer screen)."
-
-As there are lots of different devices, there can be lots of different media-queries.
-
-- [CSS-Tricks](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) is a good resource for reading up and refreshing yourself on media-queries.
-
 ## Using media queries exercise
 
 One way of doing this is by including `media` in your stylesheet link.
@@ -598,5 +586,17 @@ There are two general approaches to responsive design:  *progressive enhancement
 Instead of manually resizing the page, which can be a pain, we can use tools like this:
 
 - [Brad Frost](http://bradfrostweb.com/demo/ish/)
+
+## Media queries - Intro (5 mins)
+
+In order to target specific device/screen sizes, we need to use media-queries.
+
+What the heck is a media query? From W3Schools:
+
+"Media Queries is a CSS3 module allowing content rendering to adapt to conditions such as screen resolution (e.g. smartphone screen vs. computer screen)."
+
+As there are lots of different devices, there can be lots of different media-queries.
+
+- [CSS-Tricks](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) is a good resource for reading up and refreshing yourself on media-queries.
 
 -->
