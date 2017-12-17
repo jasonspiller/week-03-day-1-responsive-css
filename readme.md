@@ -7,15 +7,6 @@
 6.Take out the Ghost Lab part too (in Demo)
 -->
 
-
-
-
-
-
-
-<!-- 
-creator: Tony Guererro
- -->
 ![GA Cog](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
 # Welcome to CSS Responsive design 
 
@@ -31,7 +22,7 @@ Fast forward to today and the desktop computer seems to be dying. More than 71% 
 
 #### Starter Code
 
-Let's take a few moments to look at our HTML in the `index.html` file:
+Let's take a few moments to review the HTML in the `index.html` file:
 
 ```html
 <!DOCTYPE html>
@@ -162,7 +153,7 @@ main .column p {
 
 #### Make the columns responsive
 
-We have written our HTML `<main>` to expect three separate columns. How do we go about splitting these columns across the page?
+Note that the HTML `<main>`tags were written to expect three separate columns. How do we go about splitting these columns across the page?
 
 Where the CSS for the columns have been defined (line 64) let's add:
 
@@ -454,7 +445,7 @@ As you can see, DOM manipulation with vanilla javascript is a little tedious. Bu
 If you get some issues with when the browser window changes size, you might need to add some `!important` tags to make sure that the browser uses the right selector.
 
 
-## Exercise
+## Exercise - A Simple Local Server
 
 A few years ago, when we wanted to test our site on multiple operating systems, we'd have to upload the file to a webserver; but it has become very easy to run a little server from our computers and check out our site on our phones.
 
@@ -511,15 +502,15 @@ You can create an icon and add it to the home screen of your mobile device!
 
 _Note: The latter has not been tested recently, as the author does not have an Android device._
 
-##Conclusion (5 mins)
+##Conclusion
 
-As noted earlier in the lesson, since mobile is increasingly becoming the user default, any project should consider mobile styling from the start.  
+As noted earlier, since mobile is increasingly becoming the user default, any project should consider mobile styling from the start.  
 
 Also, note that images and tables are often difficult to make responsive.
 
 Since images sometimes stretch or "squish", `max-width` is your friend. Sometimes it may be more sensible to serve different images for different devise sizes: a 1200px image doesn't make sense to load on a mobile device.
 
-Though we won't cover this explicitly in this lesson, consider this while your building in the future.
+Though we won't cover these concepts explicitly, consider this while your building in the future.
 
 - Describe media queries.
 - Identify the different tools you can use to practice responsive design.
@@ -596,5 +587,7 @@ What the heck is a media query? From W3Schools:
 As there are lots of different devices, there can be lots of different media-queries.
 
 - [CSS-Tricks](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) is a good resource for reading up and refreshing yourself on media-queries.
+
+creator: Tony Guererro
 
 -->
