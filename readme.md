@@ -19,19 +19,6 @@ creator: Tony Guererro
 ![GA Cog](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
 # Welcome to CSS Responsive design 
 
-### Objectives
-*After this lesson, students will be able to:*
-
-- Describe media queries and how to write them
-- Create rules that adjust styles for phones, tablets, and computers
-
-### Preparation
-*Before this lesson, students should already be able to:*
-
-- Write basic HTML/CSS
-
-
-
 #### More devices
 
 Not that long ago, building a successful online presence meant just ensuring that your website worked correctly in all the major desktop browsers.
@@ -42,9 +29,6 @@ Fast forward to today and the desktop computer seems to be dying. More than 71% 
 - The number of active mobile devices surpassed the number of living humans somewhere around the [7.19 billion mark](http://www.independent.co.uk/life-style/gadgets-and-tech/news/there-are-officially-more-mobile-devices-than-people-in-the-world-9780518.html).
 - New devices like iWatches are changing the game too
 - "Having a mobile friendly website is no longer just important, it’s critical.", [Forbes Ecommerce Marketing Checklist for 2013](http://www.forbes.com/sites/brentgleeson/2013/03/14/ecommerce-marketing-checklist-for-2013/)
-
-
-
 
 
 #### Starter Code
@@ -242,7 +226,7 @@ As there are lots of different devices, there can be lots of different media-que
 
 - [CSS-Tricks](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) is a good resource for reading up and refreshing yourself on media-queries.
 
-## Using media queries - Codealong (25 mins)
+## Using media queries exercise
 
 One way of doing this is by including `media` in your stylesheet link.
 
@@ -560,7 +544,7 @@ Though we won't cover this explicitly in this lesson, consider this while your b
 <!--
 ## Cutout Section - These are some bits of the original material that were removed - Perhaps we may need them for a future lesson.
 
-## What is responsive design? Intro (10 mins)
+## Responsive design 
 
 "Responsive Design" is the strategy of making a site that "responds" to the browser and device that it is being shown on... by looking awesome no matter what.
 
@@ -569,12 +553,6 @@ Or, the dryer Wikipedia definition:
 "Responsive web design (RWD) is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors)."
 
 
-
-
-
-## How to do Responsive Design wrong - Demo (10 mins)
-
-If you're not planning before you begin to create a responsive design, you're doing it wrong. Changing a web platform to a mobile platform is much more difficult than going from mobile to web.
 
 #### Examples of non-responsive sites:
 
@@ -598,12 +576,6 @@ You can easily resize the screen and see how the differnt sites look using the b
 If you are really bold, choose disco!
 
 
-## Demo - Responsive Design tools (10 mins)
-
-There are a number of other stand alone tools that you can use.
-
-[Ghostlab](http://vanamco.com/ghostlab/), for example is a service that will test how your site runs on many different browsers, inspects and points out CSS problems, and also provides compilation services for preprocessors like Sass.
-
 #### Chrome's new developer tools
 
 Also, there is a really awesome tool in Chrome:
@@ -613,9 +585,6 @@ Also, there is a really awesome tool in Chrome:
 - You can change the pixel width (displayed at the top) using the drag tool
 - You can select any device using the dropdown menu at the top
 
-#### Xcode
-
-Another great tool is the Xcode simulator.
 
 
 ## Make a responsive website - Codealong (15 mins)
