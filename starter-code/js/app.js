@@ -7,5 +7,5 @@ document.addEventListener('DOMContentLoaded', function() {
        document.querySelector("" + tempSelectorString).classList.toggle('hidden');
        document.querySelector("" + tempSelectorString).classList.toggle('shown');
     }
-  });  
+  });
 });
